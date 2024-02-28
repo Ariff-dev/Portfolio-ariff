@@ -9,11 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'color-bg': '##0F0F0F',
+        'color-bg': '#0F0F0F',
         'color-bg-secundary': '#1f1f1f',
         'color-text-sub': '#9f9f9f',
         'color-title-sub': '##BCBCBC',
         'primary-title-page': '#FF5733',
+      },
+      container: {
+        center: true,
       },
     },
   },
