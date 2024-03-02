@@ -4,6 +4,7 @@ import {
   Personal,
   Profiles,
   Projects,
+  Servicies,
   Text,
 } from '@/components/page'
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Projects />
       <Blog />
       <Profiles />
+      <Servicies />
     </main>
   )
 }
