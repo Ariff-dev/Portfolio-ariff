@@ -14,6 +14,7 @@ const config: Config = {
         'color-text-sub': '#9f9f9f',
         'color-title-sub': '##BCBCBC',
         'primary-title-page': '#FF5733',
+        'color-text-inital': '#38B6FF',
       },
       container: {
         center: true,
