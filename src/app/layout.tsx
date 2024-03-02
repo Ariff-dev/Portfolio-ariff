@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='es'>
-      <body className={`${inter.className} mx-6  bg-color-bg`}>
+      <body className={`${inter.className} mx-6 text-white  bg-color-bg`}>
         <Navbar />
         {children}
         <Footer />

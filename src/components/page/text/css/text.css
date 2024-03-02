@@ -1,0 +1,31 @@
+/* *@keyframes: This CSS rule defines a sequence of styles (keyframes) for a specific animation. In this case, the animation is named moveText.
+
+? 0%: This is the starting point of the animation, where the text is placed completely off-screen to the right.
+
+? 100%: This is the ending point of the animation, where the text is moved completely off-screen to the left.
+
+? transform: translateX(100%): This indicates that at the beginning of the animation, the text will be horizontally moved to the right and be off-screen.
+ 
+? transform: translateX(-100%): This indicates that at the end of the animation, the text will be horizontally moved to the left and be off-screen.
+
+*In summary, the moveText animation horizontally moves the text from right to left, starting off-screen to the right and ending off-screen to the left. This animation is applied to the text within the Text component and repeats infinitely due to the infinite setting in the animation property. If you need more details or have any other questions, feel free to ask! */
+
+@keyframes moveText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.moving-text {
+  white-space: nowrap; /* Prevents text from wrapping onto multiple lines */
+  display: inline-block; /* Makes <span> elements behave as blocks */
+  animation: moveText 7s linear infinite; /* Repeats the animation infinitely */
+}
+
+.bg-gradient-to-tr {
+  /* Ensures that the container div hides any content that overflows */
+  overflow: hidden;
+}

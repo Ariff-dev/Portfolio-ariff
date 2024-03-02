@@ -20,7 +20,7 @@ export const Credencials = () => {
         <h2 className='uppercase font-medium text-sm text-color-text-sub'>
           Ingeniero de Software
         </h2>
-        <h3 className='font-medium text-3xl'>Ariff Martínez</h3>
+        <h3 className='font-medium text-3xl text-blue-500'>Ariff Martínez</h3>
         <p className='text-sm text-color-text-sub'>
           Soy un estudiante de ingeniería en la CDMX.
         </p>
