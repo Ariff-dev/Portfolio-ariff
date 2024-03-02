@@ -1,2 +1,2 @@
-export * from '@/components/page/credencials/Credencials'
+export * from '@/components/page/personal/Personal'
 export * from '@/components/page/text/Text'
