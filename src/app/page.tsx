@@ -1,4 +1,4 @@
-import { Credencials, Text } from '@/components/page'
+import { Credentials, Personal, Text } from '@/components/page'
 
 /*
  *The home page is divided into separate components, which are located in ./components/page/'your component
@@ -6,8 +6,9 @@ import { Credencials, Text } from '@/components/page'
 export default function Home() {
   return (
     <main>
-      <Credencials />
+      <Personal />
       <Text />
+      <Credentials />
     </main>
   )
 }

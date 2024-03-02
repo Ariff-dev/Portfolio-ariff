@@ -15,7 +15,8 @@ export const Text = () => {
         </span>{' '}
         {/* Texto duplicado para el bucle */}
         <span>
-          *Últimos <span className='text-color-text-sub'>trabajos</span> y
+          Rename folder and file *Últimos{' '}
+          <span className='text-color-text-sub'>trabajos</span> y
           características*
         </span>{' '}
         {/* Texto duplicado para el bucle */}

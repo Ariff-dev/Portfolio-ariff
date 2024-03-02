@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { IoReturnDownForward } from 'react-icons/io5'
 
-export const Credencials = () => {
+export const Personal = () => {
   return (
     <div className='bg-gradient-to-r from-color-bg-secundary to-color-bg p-8 rounded-2xl'>
       <div className='flex items-center justify-center w-full'>
