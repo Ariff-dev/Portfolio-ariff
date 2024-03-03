@@ -1,5 +1,6 @@
 import {
   Blog,
+  CallAction,
   Credentials,
   Funny,
   Personal,
@@ -23,6 +24,7 @@ export default function Home() {
       <Profiles />
       <Servicies />
       <Funny />
+      <CallAction />
     </main>
   )
 }
