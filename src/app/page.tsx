@@ -1,6 +1,7 @@
 import {
   Blog,
   Credentials,
+  Funny,
   Personal,
   Profiles,
   Projects,
@@ -21,6 +22,7 @@ export default function Home() {
       <Blog />
       <Profiles />
       <Servicies />
+      <Funny />
     </main>
   )
 }
