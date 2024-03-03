@@ -2,7 +2,7 @@ import { IoReturnDownForward } from 'react-icons/io5'
 
 export const CallAction = () => {
   return (
-    <div className='bg-gradient-to-r from-color-bg-secundary to-color-bg p-8 rounded-2xl flex flex-col gap-8'>
+    <div className='bg-gradient-to-r from-color-bg-secundary to-black/10 p-8 rounded-2xl flex flex-col gap-8'>
       <div>
         <p className='text-3xl font-medium'>
           Comencemos a trabajar{' '}

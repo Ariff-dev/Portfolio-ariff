@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Credentials = () => {
   return (
-    <div className='bg-gradient-to-r from-color-bg-secundary to-color-bg p-8 rounded-2xl flex flex-col gap-4 h-full w-full'>
+    <div className='bg-gradient-to-r from-color-bg-secundary to-black/10 p-8 rounded-2xl flex flex-col gap-4 min-h-[300px] w-full'>
       <div className='flex items-center justify-center'>
         <Image
           src='https://res.cloudinary.com/dvppsdp4j/image/upload/v1709344773/firma_ypqduo.png'

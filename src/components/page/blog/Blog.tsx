@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export const Blog = () => {
   return (
-    <div className='bg-gradient-to-r from-color-bg-secundary to-color-bg p-8 rounded-2xl flex flex-col gap-4'>
+    <div className='bg-gradient-to-r from-color-bg-secundary to-black/10 p-8 rounded-2xl flex flex-col gap-4'>
       <div className='flex justify-center items-center'>
         <Image
           src={
