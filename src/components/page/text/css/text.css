@@ -22,7 +22,7 @@
 .moving-text {
   white-space: nowrap; /* Prevents text from wrapping onto multiple lines */
   display: inline-block; /* Makes <span> elements behave as blocks */
-  animation: moveText 7s linear infinite; /* Repeats the animation infinitely */
+  animation: moveText 10s linear infinite; /* Repeats the animation infinitely */
 }
 
 .bg-gradient-to-tr {
