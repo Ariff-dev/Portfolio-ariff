@@ -16,17 +16,21 @@ import {
 export default function Home() {
   return (
     <main className='md:mx-[4%] py-[80px]'>
-      <div className='flex flex-col gap-6 w-full md:flex-row md:max-h-[350px]'>
+      <div className='flex flex-col gap-4 w-full md:flex-row md:max-h-[300px]'>
         <div className='md:w-1/2'>
           <Personal />
         </div>
-        <div className='flex flex-col md:w-1/2 gap-6'>
+        <div className='flex flex-col md:w-1/2 gap-4'>
           <div>
             <Text />
           </div>
-          <div className='flex flex-col md:flex-row gap-6'>
-            <Credentials />
-            <Projects />
+          <div className='flex flex-col md:flex-row gap-4'>
+            <div className='md:w-1/2'>
+              <Credentials />
+            </div>
+            <div className='md:w-1/2'>
+              <Projects />
+            </div>
           </div>
         </div>
       </div>

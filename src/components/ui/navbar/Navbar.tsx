@@ -49,7 +49,7 @@ export const Navbar = () => {
         </ul>
       </div>
       <div className='md:flex items-center justify-center w-32  hidden'>
-        <p className='bg-color-bg-secundary  rounded-2xl p-2'>Hablemos</p>
+        <p className='bg-color-bg-secundary  rounded-2xl p-2'>Comenzar</p>
       </div>
     </nav>
   )

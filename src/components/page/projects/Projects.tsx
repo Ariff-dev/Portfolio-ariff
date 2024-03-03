@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export const Projects = () => {
   return (
-    <div className='bg-gradient-to-r from-color-bg-secundary to-black/10 p-8 rounded-2xl h-full min-h-full w-full'>
+    <div className='bg-gradient-to-r from-color-bg-secundary to-black/10 p-8 rounded-2xl w-full'>
       <div className='flex justify-center items-center'>
         <Image
           src={
@@ -11,6 +11,7 @@ export const Projects = () => {
           alt='jobs'
           width={150}
           height={150}
+          style={{ width: '50%', height: 'auto' }}
         />
       </div>
       <div>
