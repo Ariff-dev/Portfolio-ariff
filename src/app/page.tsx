@@ -15,16 +15,23 @@ import {
  */
 export default function Home() {
   return (
-    <main>
-      <Personal />
-      <Text />
-      <Credentials />
-      <Projects />
-      <Blog />
-      <Profiles />
-      <Servicies />
-      <Funny />
-      <CallAction />
+    <main className='md:mx-[4%] py-[80px]'>
+      <div className='flex flex-col gap-8 w-full md:flex-row md:max-h-[350px]'>
+        <div className='md:w-1/2'>
+          <Personal />
+        </div>
+        <div className='flex flex-col md:w-1/2 gap-8'>
+          <div>
+            <Text />
+          </div>
+          <div className='flex flex-col md:flex-row gap-8'>
+            <Credentials />
+            <Projects />
+          </div>
+        </div>
+      </div>
+      <div></div>
+      <div></div>
     </main>
   )
 }

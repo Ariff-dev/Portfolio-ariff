@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export const Projects = () => {
   return (
-    <div className='bg-gradient-to-r from-color-bg-secundary to-color-bg p-8 rounded-2xl'>
+    <div className='bg-gradient-to-r from-color-bg-secundary to-color-bg p-8 rounded-2xl h-full min-h-full w-full'>
       <div className='flex justify-center items-center'>
         <Image
           src={
